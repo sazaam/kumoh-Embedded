@@ -38,3 +38,21 @@ void loop(){
   Serial.println(" devices were found.") ;
   thread_sleep_for(1000);
 }
+
+
+/*
+
+// Listed Devices
+
+Scanning I2C devices
+found @ 0x1E
+found @ 0x39
+found @ 0x5C
+found @ 0x5F
+found @ 0x6B
+Total 5 devices were found
+
+// they all represent the enabled ports along with the Nano 33 BLE datasheet 
+
+
+*/

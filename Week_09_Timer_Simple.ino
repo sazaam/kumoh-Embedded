@@ -10,7 +10,7 @@ using namespace mbed ;
 #define MS 10000
 
 Timer tmr ;
-
+DigitalOut led(P0_24) ;
 
 void setup() {
   tmr.start() ;
